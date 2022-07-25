@@ -1,0 +1,2 @@
+Default colour (dec) 15277667
+Default colour (hex) E91E63
