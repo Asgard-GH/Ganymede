@@ -1,5 +1,3 @@
-from pathlib import Path
-
 import disnake
 import os
 import json
@@ -13,7 +11,7 @@ def recordroles(member) -> list:
     
     Parameters
     ----------
-    member: `disanke.Member` The member that left / was kicked or banned.
+    member: `disnake.Member` The member that left / was kicked or banned.
     """
     script_parent_dir = (os.path.pardir(__file__))
     guild_id = member.guild.id
