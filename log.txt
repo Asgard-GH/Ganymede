@@ -1,0 +1,1625 @@
+2022-09-13 17:04:38,350|1663081478.350302:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 133, in kick
+    raise errors.InvalidTargetError("You can't kick yourself")
+
+errors.InvalidTargetError: You can't kick yourself
+
+2022-09-13 17:13:01,859|1663081981.859302:INFO:on_slash_command_error:
+Bad user input in slash command 'kick' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 135, in kick
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: You don't have permission to kick <@789553834648535080> as you are below or equal to them in the role hierarchy and/or they own this server
+
+
+The above exception was the direct cause of the following exception:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 606, in invoke
+    raise CommandInvokeError(exc) from exc
+
+disnake.ext.commands.errors.CommandInvokeError: Command raised an exception: MissingPermissionsError: You don't have permission to kick <@789553834648535080> as you are below or equal to them in the role hierarchy and/or they own this server
+
+2022-09-13 17:14:23,211|1663082063.211380:INFO:on_slash_command_error:
+Bad user input in slash command 'kick' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 135, in kick
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: You don't have permission to kick <@789553834648535080> as you are below or equal to them in the role hierarchy and/or they own this server
+
+
+The above exception was the direct cause of the following exception:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 606, in invoke
+    raise CommandInvokeError(exc) from exc
+
+disnake.ext.commands.errors.CommandInvokeError: Command raised an exception: MissingPermissionsError: You don't have permission to kick <@789553834648535080> as you are below or equal to them in the role hierarchy and/or they own this server
+
+2022-09-13 17:14:59,337|1663082099.337535:INFO:on_slash_command_error:
+Bad user input in slash command 'kick' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 135, in kick
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: You don't have permission to kick <@789553834648535080> as you are below or equal to them in the role hierarchy and/or they own this server
+
+2022-09-13 17:16:21,237|1663082181.237643:INFO:on_slash_command_error:
+Bad user input in slash command 'kick' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 135, in kick
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: You don't have permission to kick <@789553834648535080> as you are below or equal to them in the role hierarchy and/or they own this server
+
+2022-09-13 17:17:35,396|1663082255.396247:INFO:on_slash_command_error:
+Bad user input in slash command 'kick' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 135, in kick
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: You don't have permission to kick <@789553834648535080> as you are below or equal to them in the role hierarchy and/or they own this server
+
+2022-09-13 17:18:04,211|1663082284.211889:INFO:on_slash_command_error:
+Bad user input in slash command 'kick' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 135, in kick
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: You don't have permission to kick <@789553834648535080> as you are below or equal to them in the role hierarchy and/or they own this server
+
+2022-09-13 17:19:52,485|1663082392.485046:INFO:on_slash_command_error:
+Bad user input in slash command 'kick' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 135, in kick
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: You don't have permission to kick <@789553834648535080> as you are below or equal to them in the role hierarchy and/or they own this server
+
+2022-09-13 17:20:15,123|1663082415.123123:INFO:on_slash_command_error:
+Bad user input in slash command 'kick' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 135, in kick
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: You don't have permission to kick <@789553834648535080> as you are below or equal to them in the role hierarchy and/or they own this server
+
+2022-09-13 17:22:27,922|1663082547.922268:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 140, in kick
+    if not await utils.is_above(inter.bot.user, target):
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\utils.py", line 180, in is_above
+    owner = await a.guild.getch_member(a.guild.owner_id)
+
+AttributeError: 'ClientUser' object has no attribute 'guild'
+
+
+The above exception was the direct cause of the following exception:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 606, in invoke
+    raise CommandInvokeError(exc) from exc
+
+disnake.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'ClientUser' object has no attribute 'guild'
+
+2022-09-13 17:23:56,511|1663082636.511945:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 140, in kick
+    if not await utils.is_above(inter.bot.user, target):
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\utils.py", line 186, in is_above
+    return a.top_role > b.top_role
+
+AttributeError: 'ClientUser' object has no attribute 'top_role'
+
+
+The above exception was the direct cause of the following exception:
+
+
+Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 606, in invoke
+    raise CommandInvokeError(exc) from exc
+
+disnake.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'ClientUser' object has no attribute 'top_role'
+
+2022-09-13 17:25:58,429|1663082758.429905:INFO:on_slash_command_error:
+Bad user input in slash command 'kick' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 141, in kick
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: Cannot kick <@789553834648535080> as the bot is below or equal to them in the role hierarchy and/or they own this server
+
+2022-09-13 17:39:41,034|1663083581.034157:INFO:on_slash_command_error:
+Bad user input in slash command 'kick' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 133, in kick
+    await utils.lbyl(inter=inter, target=target, mode="kick")
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\utils.py", line 221, in lbyl
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: Cannot kick <@789553834648535080> as the bot is below or equal to them in the role hierarchy and/or they own this server
+
+2022-09-25 15:04:07,777|1664111047.777639:INFO:on_slash_command_error:
+Bad user input in slash command 'kick' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 133, in kick
+    await utils.lbyl(inter=inter, target=target, action="kick")
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\utils.py", line 244, in lbyl
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: Cannot kick <@789553834648535080> as the bot is below or equal to them in the role hierarchy and/or they own this server
+
+2022-09-25 15:05:10,180|1664111110.180842:INFO:on_slash_command_error:
+Bad user input in slash command 'kick' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 133, in kick
+    await utils.lbyl(inter=inter, target=target, action="kick")
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\utils.py", line 230, in lbyl
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: You don't have the required clearance tier to perform the action 'kick'
+
+2022-09-27 13:37:37,264|1664278657.264255:INFO:on_slash_command_error:
+Bad user input in slash command 'credits' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 586, in invoke
+    await self.prepare(inter)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\base_core.py", line 216, in prepare
+    await self.call_before_hooks(inter)  # type: ignore
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\base_core.py", line 389, in call_before_hooks
+    await hook(inter)
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 93, in before_slash_command_invoke
+    raise errors.BlacklistedUserError(
+
+errors.BlacklistedUserError: You are blacklisted from using Ganymedes services
+
+2022-09-27 13:42:16,564|1664278936.564701:INFO:on_slash_command_error:
+Bad user input in slash command 'query_channel' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 586, in invoke
+    await self.prepare(inter)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\base_core.py", line 216, in prepare
+    await self.call_before_hooks(inter)  # type: ignore
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\base_core.py", line 389, in call_before_hooks
+    await hook(inter)
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 93, in before_slash_command_invoke
+    raise errors.BlacklistedUserError(
+
+errors.BlacklistedUserError: You are blacklisted from using Ganymedes services
+
+2022-09-27 13:44:50,828|1664279090.828969:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 197, in query_channel
+    cursor.execute(f"SELECT * FROM Util_channels WHERE G_ID={inter.guild.id}")
+
+sqlite3.OperationalError: no such table: Util_channels
+
+2022-09-27 13:48:27,332|1664279307.332631:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 205, in query_channel
+    channel_functions: dict = json.load(fp=f)
+
+NameError: name 'json' is not defined
+
+2022-09-27 14:04:28,617|1664280268.617565:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 215, in query_channel
+    channel_functions: dict = json.load(fp=f)
+
+NameError: name 'json' is not defined
+
+2022-09-27 14:10:18,926|1664280618.926208:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 218, in query_channel
+    raise errors.PurposeNotSetError(
+
+errors.PurposeNotSetError: This purpose hasn't been assigned to any channel yet
+
+2022-09-27 14:18:01,779|1664281081.779405:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 221, in query_channel
+    raise errors.PurposeNotSetError(
+
+errors.PurposeNotSetError: This purpose hasn't been assigned to any channel yet
+
+2022-09-27 14:23:52,309|1664281432.309862:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 225, in query_channel
+    raise errors.ChannelNotFoundError("This channel has been deleted")
+
+errors.ChannelNotFoundError: This channel has been deleted
+
+2022-09-27 14:45:31,770|1664282731.770991:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 226, in query_channel
+    raise errors.PurposeNotSetError(
+
+errors.PurposeNotSetError: This purpose hasn't been assigned to any channel yet
+
+2022-09-27 14:49:18,572|1664282958.572838:INFO:on_slash_command_error:
+Bad user input in slash command 'set_tier' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 586, in invoke
+    await self.prepare(inter)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\base_core.py", line 216, in prepare
+    await self.call_before_hooks(inter)  # type: ignore
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\base_core.py", line 389, in call_before_hooks
+    await hook(inter)
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 102, in before_slash_command_invoke
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: Command set_tier requires clearance tier `5` or higher, not `4`
+
+2022-09-27 14:50:43,970|1664283043.970256:INFO:on_slash_command_error:
+Bad user input in slash command 'set_tier' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 586, in invoke
+    await self.prepare(inter)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\base_core.py", line 216, in prepare
+    await self.call_before_hooks(inter)  # type: ignore
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\base_core.py", line 389, in call_before_hooks
+    await hook(inter)
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 102, in before_slash_command_invoke
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: Command 'set_tier' requires clearance tier `5` (or higher), not `4`
+
+2022-09-27 14:57:44,316|1664283464.316551:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 234, in query_channel
+    raise errors.PurposeNotSetError(
+
+errors.PurposeNotSetError: This purpose hasn't been assigned to any channel yet
+
+2022-09-27 14:59:11,545|1664283551.545750:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 235, in query_channel
+    raise errors.PurposeNotSetError(
+
+errors.PurposeNotSetError: This purpose hasn't been assigned to any channel yet
+
+2022-09-28 09:04:15,408|1664348655.408291:INFO:on_slash_command_error:
+Bad user input in slash command 'set_tier' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 586, in invoke
+    await self.prepare(inter)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\base_core.py", line 216, in prepare
+    await self.call_before_hooks(inter)  # type: ignore
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\base_core.py", line 389, in call_before_hooks
+    await hook(inter)
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 106, in before_slash_command_invoke
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: Command 'set_tier' requires clearance tier `5` (or higher), not `0`
+
+2022-09-28 09:12:05,678|1664349125.678733:INFO:on_slash_command_error:
+Bad user input in slash command 'set_tier' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 586, in invoke
+    await self.prepare(inter)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\base_core.py", line 216, in prepare
+    await self.call_before_hooks(inter)  # type: ignore
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\base_core.py", line 389, in call_before_hooks
+    await hook(inter)
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 112, in before_slash_command_invoke
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: Command 'set_tier' requires clearance tier `5` (or higher), not `4`
+
+2022-09-28 09:13:06,076|1664349186.076086:INFO:on_slash_command_error:
+Bad user input in slash command 'set_tier' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 586, in invoke
+    await self.prepare(inter)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\base_core.py", line 216, in prepare
+    await self.call_before_hooks(inter)  # type: ignore
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\base_core.py", line 389, in call_before_hooks
+    await hook(inter)
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 114, in before_slash_command_invoke
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: Command 'set_tier' requires clearance tier `5` (or higher), not `4`
+
+2022-09-28 09:13:45,292|1664349225.292027:INFO:on_slash_command_error:
+Bad user input in slash command 'set_tier' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 586, in invoke
+    await self.prepare(inter)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\base_core.py", line 216, in prepare
+    await self.call_before_hooks(inter)  # type: ignore
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\base_core.py", line 389, in call_before_hooks
+    await hook(inter)
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 115, in before_slash_command_invoke
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: Command 'set_tier' requires clearance tier `5` (or higher), not `4`
+
+2022-09-28 17:06:11,218|1664377571.218566:INFO:on_slash_command_error:
+Bad user input in slash command 'set_tier' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 586, in invoke
+    await self.prepare(inter)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\base_core.py", line 216, in prepare
+    await self.call_before_hooks(inter)  # type: ignore
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\base_core.py", line 389, in call_before_hooks
+    await hook(inter)
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 109, in before_slash_command_invoke
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: Command 'set_tier' requires clearance tier `5` (or higher), not `0`
+
+2022-09-28 17:17:53,537|1664378273.537999:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 301, in query_tier
+    tier_name = [
+
+IndexError: list index out of range
+
+2022-09-28 17:18:45,499|1664378325.499191:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 302, in query_tier
+    tier_name = [
+
+IndexError: list index out of range
+
+2022-09-28 17:19:11,075|1664378351.075993:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 302, in query_tier
+    tier_name = [
+
+IndexError: list index out of range
+
+2022-10-02 16:49:14,351|1664722154.351569:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+TypeError: call_param_func() got multiple values for argument 'function'
+
+2022-10-02 16:54:29,095|1664722469.095783:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 133, in kick
+    await utils.lbyl(inter=inter, target=target, action="kick")
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\utils.py", line 228, in lbyl
+    get_clearance(inter.author)
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\utils.py", line 47, in get_clearance
+    with open(f"{script_dir}/guild_clearances/{guild_id}.json") as f:
+
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\hhbpr\\OneDrive\\Desktop\\Ganymede/guild_clearances/1005837173343387711.json'
+
+2022-10-06 09:50:52,982|1665042652.982271:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 354, in report
+    await utils.confirm(inter)
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\utils.py", line 290, in confirm
+    await inter.send(
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\interactions\base.py", line 580, in send
+    await sender(
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\interactions\base.py", line 827, in send_message
+    await adapter.create_interaction_response(
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\webhook\async_.py", line 216, in request
+    raise HTTPException(response, data)
+
+disnake.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In data.embeds.0.description: This field is required
+
+2022-10-11 17:58:13,014|1665503893.014614:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 339, in query_tier
+    tier_name = [
+
+IndexError: list index out of range
+
+2022-10-11 17:58:23,564|1665503903.564361:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 339, in query_tier
+    tier_name = [
+
+IndexError: list index out of range
+
+2022-10-11 17:59:44,783|1665503984.783549:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 339, in query_tier
+    tier_name = [
+
+IndexError: list index out of range
+
+2022-10-13 15:01:54,135|1665666114.135259:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 353, in query_tier
+    await inter.send(embed=info_embed)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\interactions\base.py", line 580, in send
+    await sender(
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\interactions\base.py", line 827, in send_message
+    await adapter.create_interaction_response(
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\webhook\async_.py", line 216, in request
+    raise HTTPException(response, data)
+
+disnake.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In data.embeds.0.fields.0.name: This field is required
+
+2022-10-13 16:52:46,115|1665672766.115758:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 38, in mute
+    await utils.lbyl(inter=inter, target=target, action="mute")
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\utils.py", line 232, in lbyl
+    if not get_clearance(inter.author) >= constants.REQ_CLEARANCE[action]:
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\utils.py", line 52, in get_clearance
+    with open(f"{script_dir}/guild_clearances/{guild_id}.json") as f:
+
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\hhbpr\\OneDrive\\Desktop\\Ganymede/guild_clearances/1005837173343387711.json'
+
+2022-10-13 16:55:32,518|1665672932.518625:INFO:on_slash_command_error:
+Bad user input in slash command 'mute' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 53, in mute
+    timeout_duration = utils.string_to_timedelta(duration)
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\utils.py", line 156, in string_to_timedelta
+    raise errors.InvalidParameterError(
+
+errors.InvalidParameterError: Parameter `duration` accepts values like '2w4d' or '1d45m', not '2e'.
+
+2022-10-13 18:07:31,899|1665677251.899981:INFO:on_slash_command_error:
+Bad user input in slash command 'query_channel' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 288, in query_channel
+    raise errors.ChannelNotFoundError("This channel has been deleted")
+
+errors.ChannelNotFoundError: This channel has been deleted
+
+2022-10-13 18:07:51,641|1665677271.641362:INFO:on_slash_command_error:
+Bad user input in slash command 'query_channel' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 284, in query_channel
+    raise errors.PurposeNotSetError(
+
+errors.PurposeNotSetError: This purpose hasn't been assigned to any channel yet
+
+2022-10-13 20:23:09,769|1665685389.769796:INFO:on_slash_command_error:
+Bad user input in slash command 'kick' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 133, in kick
+    await utils.lbyl(inter=inter, target=target, action="kick")
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\utils.py", line 234, in lbyl
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: Cannot kick <@789553834648535080> as the bot is below or equal to them in the role hierarchy and/or they own this server
+
+2022-10-13 20:23:35,367|1665685415.367870:INFO:on_slash_command_error:
+Bad user input in slash command 'kick' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 133, in kick
+    await utils.lbyl(inter=inter, target=target, action="kick")
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\utils.py", line 234, in lbyl
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: Cannot kick <@789553834648535080> as the bot is below or equal to them in the role hierarchy and/or they own this server
+
+2022-10-13 21:39:11,891|1665689951.891531:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 135, in kick
+    utils.record_roles(member=target)
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\utils.py", line 68, in record_roles
+    {str(member.roles[1].id)}
+
+IndexError: list index out of range
+
+2022-10-13 22:02:36,236|1665691356.236120:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 135, in kick
+    utils.record_roles(member=target)
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\utils.py", line 63, in record_roles
+    cursor.execute(
+
+sqlite3.OperationalError: near ";": syntax error
+
+2022-10-13 22:03:15,506|1665691395.506879:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 135, in kick
+    utils.record_roles(member=target)
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\utils.py", line 63, in record_roles
+    cursor.execute(
+
+sqlite3.OperationalError: near "1019264147864694875": syntax error
+
+2022-10-13 22:04:30,422|1665691470.422898:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 135, in kick
+    utils.record_roles(member=target)
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\utils.py", line 63, in record_roles
+    cursor.execute(
+
+sqlite3.OperationalError: unrecognized token: "1005837173343387711_1019264147864694875_1019264118026408019"
+
+2022-10-13 22:09:51,376|1665691791.376753:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 135, in kick
+    utils.record_roles(member=target)
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\utils.py", line 63, in record_roles
+    cursor.execute(
+
+sqlite3.OperationalError: unrecognized token: "1005837173343387711_1019264147864694875_1019264118026408019"
+
+2022-10-13 22:13:15,631|1665691995.631681:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 135, in kick
+    utils.record_roles(member=target)
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\utils.py", line 63, in record_roles
+    cursor.execute(
+
+sqlite3.OperationalError: near ":1019264147864694875": syntax error
+
+2022-10-14 11:39:50,591|1665740390.591474:INFO:on_slash_command_error:
+Bad user input in slash command 'query_channel' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 317, in query_channel
+    raise errors.ChannelNotFoundError("This channel has been deleted")
+
+errors.ChannelNotFoundError: This channel has been deleted
+
+2022-10-14 11:41:54,083|1665740514.083432:INFO:on_slash_command_error:
+Bad user input in slash command 'mute' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 53, in mute
+    timeout_duration = utils.string_to_timedelta(duration)
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\utils.py", line 173, in string_to_timedelta
+    raise errors.InvalidParameterError(
+
+errors.InvalidParameterError: Parameter `duration` accepts values like '2w4d' or '1d45m', not 'hhfddr'.
+
+2022-10-14 11:42:06,931|1665740526.931808:INFO:on_slash_command_error:
+Bad user input in slash command 'mute' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 38, in mute
+    await utils.lbyl(inter=inter, target=target, action="mute")
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\utils.py", line 241, in lbyl
+    raise errors.InvalidTargetError(f"You can't {action} yourself")
+
+errors.InvalidTargetError: You can't mute yourself
+
+2022-10-14 11:42:21,172|1665740541.172568:INFO:on_slash_command_error:
+Bad user input in slash command 'mute' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 38, in mute
+    await utils.lbyl(inter=inter, target=target, action="mute")
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\utils.py", line 249, in lbyl
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: Cannot mute <@998996826252394596> as the bot is below or equal to them in the role hierarchy and/or they own this server
+
+2022-10-14 11:42:49,946|1665740569.946977:INFO:on_slash_command_error:
+Bad user input in slash command 'mute' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 38, in mute
+    await utils.lbyl(inter=inter, target=target, action="mute")
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\utils.py", line 249, in lbyl
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: Cannot mute <@801450128526802984> as the bot is below or equal to them in the role hierarchy and/or they own this server
+
+2022-10-14 11:44:41,718|1665740681.718866:INFO:on_slash_command_error:
+Bad user input in slash command 'mute' by Gladsheim#1411 (ID: 789553834648535080):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 586, in invoke
+    await self.prepare(inter)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\base_core.py", line 216, in prepare
+    await self.call_before_hooks(inter)  # type: ignore
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\base_core.py", line 389, in call_before_hooks
+    await hook(inter)
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 128, in before_slash_command_invoke
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: Command 'mute' requires clearance tier `1` (or higher), not `0`
+
+2022-10-14 11:45:53,677|1665740753.677465:INFO:on_slash_command_error:
+Bad user input in slash command 'mute' by Gladsheim#1411 (ID: 789553834648535080):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 586, in invoke
+    await self.prepare(inter)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\base_core.py", line 216, in prepare
+    await self.call_before_hooks(inter)  # type: ignore
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\base_core.py", line 389, in call_before_hooks
+    await hook(inter)
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 128, in before_slash_command_invoke
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: Command 'mute' requires clearance tier `1` (or higher), not `0`
+
+2022-10-14 11:47:48,339|1665740868.339615:INFO:on_slash_command_error:
+Bad user input in slash command 'mute' by Gladsheim#1411 (ID: 789553834648535080):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 586, in invoke
+    await self.prepare(inter)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\base_core.py", line 216, in prepare
+    await self.call_before_hooks(inter)  # type: ignore
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\base_core.py", line 389, in call_before_hooks
+    await hook(inter)
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 129, in before_slash_command_invoke
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: Command 'mute' requires clearance tier `1` (or higher), not `0`
+
+2022-10-14 11:48:29,604|1665740909.604640:INFO:on_slash_command_error:
+Bad user input in slash command 'mute' by Gladsheim#1411 (ID: 789553834648535080):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 586, in invoke
+    await self.prepare(inter)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\base_core.py", line 216, in prepare
+    await self.call_before_hooks(inter)  # type: ignore
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\base_core.py", line 389, in call_before_hooks
+    await hook(inter)
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 129, in before_slash_command_invoke
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: Command 'mute' requires clearance tier `1` (or higher), not `0`
+
+2022-10-14 11:58:29,782|1665741509.782812:INFO:on_slash_command_error:
+Bad user input in slash command 'mute' by Gladsheim#1411 (ID: 789553834648535080):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 38, in mute
+    await utils.lbyl(inter=inter, target=target, action="mute")
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\utils.py", line 243, in lbyl
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: You don't have permission to mute <@801450128526802984> as you are below or equal to them in the role hierarchy and/or they own this server
+
+2022-10-14 11:58:43,616|1665741523.616816:INFO:on_slash_command_error:
+Bad user input in slash command 'mute' by Gladsheim#1411 (ID: 789553834648535080):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 38, in mute
+    await utils.lbyl(inter=inter, target=target, action="mute")
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\utils.py", line 241, in lbyl
+    raise errors.InvalidTargetError(f"You can't {action} yourself")
+
+errors.InvalidTargetError: You can't mute yourself
+
+2022-10-19 21:10:41,863|1666206641.863649:INFO:on_slash_command_error:
+Bad user input in slash command 'kick' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 133, in kick
+    await utils.lbyl(inter=inter, target=target, action="kick")
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\utils.py", line 251, in lbyl
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: Cannot kick <@789553834648535080> as the bot is below or equal to them in the role hierarchy and/or they own this server
+
+2022-10-19 21:18:04,817|1666207084.817354:INFO:on_slash_command_error:
+Bad user input in slash command 'kick' by Gladsheim#1411 (ID: 789553834648535080):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 133, in kick
+    await utils.lbyl(inter=inter, target=target, action="kick")
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\utils.py", line 243, in lbyl
+    raise errors.InvalidTargetError(f"You can't {action} yourself")
+
+errors.InvalidTargetError: You can't kick yourself
+
+2022-10-19 21:21:25,830|1666207285.830811:INFO:on_slash_command_error:
+Bad user input in slash command 'set_tier' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 334, in set_tier
+    raise errors.InvalidTargetError("Bot users can't have clearance tiers")
+
+errors.InvalidTargetError: Bot users can't have clearance tiers
+
+2022-10-19 21:23:21,677|1666207401.677350:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 75, in mute
+    await target.timeout(
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\member.py", line 1109, in timeout
+    return await self.guild.timeout(self, duration=duration, reason=reason)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\guild.py", line 3633, in timeout
+    data = await self._state.http.edit_member(self.id, user.id, reason=reason, **payload)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\http.py", line 420, in request
+    raise HTTPException(response, data)
+
+disnake.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In communication_disabled_until: Invalid communication disabled timestamp
+
+2022-10-19 22:31:42,073|1666211502.073124:INFO:on_slash_command_error:
+Bad user input in slash command 'kick' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 149, in kick
+    await utils.lbyl(inter=inter, target=target, action="kick")
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\utils.py", line 246, in lbyl
+    raise errors.InvalidTargetError(f"You can't {action} yourself")
+
+errors.InvalidTargetError: You can't kick yourself
+
+2022-11-25 11:47:09,051|1669373229.051290:INFO:on_slash_command_error:
+Bad user input in slash command 'query_tier' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\__main__.py", line 470, in query_tier
+    raise errors.InvalidTargetError("Bot users can't have clearance tiers")
+
+errors.InvalidTargetError: Bot users can't have clearance tiers
+
+2023-01-02 14:30:09,087|1672666209.087755:INFO:on_slash_command_error:
+Bad user input in slash command 'ban' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 264, in ban
+    raise errors.InvalidTargetError(
+
+errors.InvalidTargetError: Specified target 'Gladsheim' does not match
+the specified ID '0'. Consider using only one of the arguments.
+
+2023-01-02 14:30:57,584|1672666257.584393:INFO:on_slash_command_error:
+Bad user input in slash command 'ban' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 265, in ban
+    raise errors.InvalidTargetError(
+
+errors.InvalidTargetError: Specified target 'Gladsheim' does not match
+the specified ID '0'. Consider using only one of the arguments.
+
+2023-01-02 14:31:17,066|1672666277.066186:INFO:on_slash_command_error:
+Bad user input in slash command 'ban' by Asgard#1855 (ID: 560865133476315156):
+	Traceback (most recent call last):
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1332, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\slash_core.py", line 597, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\ext\commands\params.py", line 778, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+
+  File "C:\Users\hhbpr\AppData\Local\Programs\Python\Python310\lib\site-packages\disnake\utils.py", line 561, in maybe_coroutine
+    return await value
+
+  File "C:\Users\hhbpr\OneDrive\Desktop\Ganymede\exts\moderation.py", line 265, in ban
+    raise errors.InvalidTargetError(
+
+errors.InvalidTargetError: Specified target 'Gladsheim' does not match
+the specified ID '0'. Consider using only one of the arguments.
+
+2023-03-29 18:30:46,033|1680107446.033592:INFO:on_slash_command_error:
+Bad user input in slash command 'set_captcha' by Gladsheim#1411 (ID: 789553834648535080):
+	Traceback (most recent call last):
+
+  File "C:\Users\Hannes\AppData\Local\Programs\Python\Python311\Lib\site-packages\disnake\ext\commands\interaction_bot_base.py", line 1377, in process_application_commands
+    await app_command.invoke(interaction)
+
+  File "C:\Users\Hannes\AppData\Local\Programs\Python\Python311\Lib\site-packages\disnake\ext\commands\slash_core.py", line 732, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\Hannes\AppData\Local\Programs\Python\Python311\Lib\site-packages\disnake\ext\commands\params.py", line 1022, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "C:\Users\Hannes\AppData\Local\Programs\Python\Python311\Lib\site-packages\disnake\utils.py", line 600, in maybe_coroutine
+    return await value
+           ^^^^^^^^^^^
+
+  File "C:\Users\Hannes\OneDrive\Desktop\Ganymede\__main__.py", line 572, in set_captcha
+    raise errors.MissingPermissionsError(
+
+errors.MissingPermissionsError: Command 'set_captcha' requires clearance tier `5` (or higher), not `2`
+
+2023-03-29 18:39:18,793|1680107958.793435:WARNING:on_slash_command_error:
+	Traceback (most recent call last):
+
+  File "C:\Users\Hannes\AppData\Local\Programs\Python\Python311\Lib\site-packages\disnake\ext\commands\slash_core.py", line 732, in invoke
+    await call_param_func(self.callback, inter, self.cog, **kwargs)
+
+  File "C:\Users\Hannes\AppData\Local\Programs\Python\Python311\Lib\site-packages\disnake\ext\commands\params.py", line 1022, in call_param_func
+    return await maybe_coroutine(safe_call, function, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "C:\Users\Hannes\AppData\Local\Programs\Python\Python311\Lib\site-packages\disnake\utils.py", line 600, in maybe_coroutine
+    return await value
+           ^^^^^^^^^^^
+
+  File "C:\Users\Hannes\OneDrive\Desktop\Ganymede\__main__.py", line 632, in set_captcha
+    cursor.execute(
+
+sqlite3.OperationalError: near "(": syntax error
+

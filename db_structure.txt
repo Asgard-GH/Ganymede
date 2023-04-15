@@ -1,0 +1,33 @@
+Blacklisteds
+	D_ID int
+Captchas
+	G_ID int
+	Setting int
+	consequence int
+Clearances
+	D_ID int
+	G_ID int
+	Tier int
+Recorded
+	D_ID int
+	G_ID int
+	Roles str
+Timeouts
+	D_ID int
+	G_ID int
+	until int
+Util_channels
+	G_ID int
+	Msg_Log int
+	Mod_Log int
+	Reports int
+	Serv_Log int
+Visible
+	G_ID int
+	Ca_ID int
+Warns
+	D_ID int
+	G_ID int
+	Reason str
+	Executed int
+	Expires int
